@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<config>
+	<tabs>
+		<easystorecreation translate="label" module="easystorecreation">
+			<sort_order>1</sort_order>
+			<label>EasyStorecreation configuration</label>
+		</easystorecreation>
+	</tabs>
+	<sections>
+		<easystorecreation_options translate="label" module="easystorecreation">
+			<label>Settings for storeview</label>
+			<tab>easystorecreation</tab>
+			<frontend_type>text</frontend_type>
+			<sort_order>1</sort_order>
+			<show_in_default>1</show_in_default>
+			<show_in_website>1</show_in_website>
+			<show_in_store>1</show_in_store>
+			<groups>
+				<configure translate="label">
+					<label>Configure the settings</label>
+					 <frontend_type>text</frontend_type>
+ 					 <sort_order>1</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<storeviewoptions>
+							<label>Choose the storeview you want to create</label>
+							<frontend_type>multiselect</frontend_type>
+							<sort_order>1</sort_order>
+							<source_model>adminhtml/system_config_source_locale</source_model>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</storeviewoptions>
+					</fields>
+
+				</configure>
+			</groups>
+		</easystorecreation_options>
+		<easystorecreation_products translate="label" module="easystorecreation">
+			<label>Products Assignment</label>
+			<tab>easystorecreation</tab>
+			<frontend_type>text</frontend_type>
+			<sort_order>2</sort_order>
+			<show_in_default>1</show_in_default>
+			<show_in_website>1</show_in_website>
+			<show_in_store>1</show_in_store>
+			<groups>
+				<productsconfigure translate="label">
+					<label>Products Assignment setting</label>
+					 <frontend_type>text</frontend_type>
+ 					 <sort_order>1</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<storeviewproducts>
+							<label>Do you want to assign all the products</label>
+							<frontend_type>select</frontend_type>
+							<sort_order>110</sort_order>
+							<source_model>easystorecreation/value</source_model>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</storeviewproducts>
+					</fields>
+				</productsconfigure>
+			</groups>
+		</easystorecreation_products>
+			<easystorecreation_cms translate="label" module="easystorecreation">
+			<label>CMS Assignment</label>
+			<tab>easystorecreation</tab>
+			<frontend_type>text</frontend_type>
+			<sort_order>3</sort_order>
+			<show_in_default>1</show_in_default>
+			<show_in_website>1</show_in_website>
+			<show_in_store>1</show_in_store>
+			<groups>
+				<cmsconfigure translate="label">
+					<label>Cms assignment setting</label>
+					 <frontend_type>text</frontend_type>
+ 					 <sort_order>1</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<storeviewcmspage>
+							<label>Do you want to assign all the cms pages for all storeview</label>
+							<frontend_type>select</frontend_type>
+							<sort_order>110</sort_order>
+							<source_model>easystorecreation/newvalue</source_model>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</storeviewcmspage>
+					</fields>
+					<fields>
+						<storeviewcmsblock>
+							<label>Do you want to assign all the cms blocks for all storeview</label>
+							<frontend_type>select</frontend_type>
+							<sort_order>110</sort_order>
+							<source_model>easystorecreation/blockvalue</source_model>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</storeviewcmsblock>
+					</fields>
+				</cmsconfigure>
+			</groups>
+		</easystorecreation_cms>
+	</sections>
+</config>

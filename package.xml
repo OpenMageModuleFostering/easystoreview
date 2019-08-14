@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+    <name>EasyStoreview</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Easystoreview creation module is used to create storeview in a single step, and assigns locale to the created storeview.It also assigns all products,cms pages and blocks to all created storeview</summary>
+    <description>Easy storeview creation module is used in multistoreview creation.First step is creating storeview by selecting country in dropdown that appears in admin. It also assigns locale to the created storeview.&#xD;
+Second step is it assigns all products to main website on selecting yes in the products assignment section.Third step is it assigns cms pages and cms blocks to all storeview on selecting "yes". And on selecting "no" it assigns to default storeview</description>
+    <notes>Initial functionality of creating storeview is done in this module</notes>
+    <authors><author><name>madhumala krishnan</name><user>madhumala</user><email>madhujerlin@gmail.com</email></author></authors>
+    <date>2015-08-06</date>
+    <time>07:38:38</time>
+    <contents><target name="mageetc"><dir><dir name="modules"><file name="Ameex_EasyStorecreation.xml" hash="e0d640907522cf85ab7498fe21cccde6"/></dir></dir></target><target name="magecommunity"><dir><dir name="Ameex"><dir name="EasyStorecreation"><dir><dir name="Helper"><file name="Data.php" hash="80fd48c18c5b321ae085200eaad2635c"/></dir><dir name="Model"><file name="Blockvalue.php" hash="0c15c4704417de907a979dab329edc9a"/><file name="Newvalue.php" hash="87076e0ac8d8f1b60b8888861ab9b504"/><file name="Observer.php" hash="19f1721c5c137c51d70e6300c1b22387"/><file name="Value.php" hash="bdd5ef3d617aa4576ee65475d1ea357c"/></dir><dir name="controllers"><file name="IndexController.php" hash="e82e109cd6c0af430b962c3f5ced624d"/></dir><dir name="etc"><file name="config.xml" hash="09025e2db2e928854f2ddf6cc7a136ce"/><file name="system.xml" hash="9707a4aeb54a6a4513a3b326fc884959"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>5.5.0</max></php></required></dependencies>
+</package>
