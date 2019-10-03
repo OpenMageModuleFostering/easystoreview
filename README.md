@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Easystoreview creation module is used to create storeview in a single step, and assigns locale to the created storeview.It also assigns all products,cms pages and blocks to all created storeview
